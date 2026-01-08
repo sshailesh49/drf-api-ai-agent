@@ -113,8 +113,9 @@ The agent uses the following tools defined in `backend/agent_api/tools.py`:
 
 
 
+##############################################################################################################################################################
 
-## Note :  When both your frontend and backend are running in Docker containers, localhost inside the frontend container refers to the frontend container itself, not your backend. You need to connect using the container name or a Docker network alias.
+# Note :  When both your frontend and backend are running in Docker containers, localhost inside the frontend container refers to the frontend container itself, not your backend. You need to connect using the container name or a Docker network alias.
 
 
 
@@ -167,5 +168,6 @@ Now currency-frontend can reach backend using http://currency-backend:8000.
 
 or 
 # use service name in docker-compose.yml 
+
 
     "http://backend:8000/api/convert/"  in app.py 
