@@ -1,0 +1,12 @@
+langchain-groq
+langchain
+langchain-community
+langchain-core
+dotenv
+requests
+duckduckgo-search
+ddgs   # internally ddgs used duckduckgo-search
+django
+django-cors-headers
+djangorestframework
+gunicorn
