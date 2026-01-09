@@ -55,12 +55,12 @@ The system consists of two main services:
 3.  Click **Search**. The agent will process your request and display the result.
 
 ![Streamlit UI Main Page](assets/ui_main.png)
-![Streamlit UI Results](assets/ui_result.png)
+![Streamlit UI Results](assets/ui-result.png)
 
 ##  Using the API directly
 You can interact with the agent via the REST API using `curl` 
 
-![Terminal API Test](assets/api_test.png)
+![Terminal API Test](assets/api-test.png)
 
  curl -X POST http://localhost:8000/api/convert/      -H "Content-Type: application/json"      -d '{"query": "capital of goa and then its weather then give list of turistplace"}'
 
@@ -171,3 +171,4 @@ or
 
 
     "http://backend:8000/api/convert/"  in app.py 
+
